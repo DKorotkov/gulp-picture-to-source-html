@@ -1,4 +1,4 @@
-# gulp-picture-to-source-html
+# gulp-source-in-html
 
 Parses HTML files to find img tags and replaces them with picture/source/img tags.
 
@@ -69,4 +69,6 @@ Output file extensions.
 Thanks [gulp-webp-in-html](https://github.com/ixamp/gulp-webp-in-html) for the inspiration.
 
 [LQIP](https://github.com/exuanbo/gulp-lqip-base64)
+
+If you need to write the result in a different format, then use [this plugin](https://github.com/goiblas/gulp-add-source-picture)
 
