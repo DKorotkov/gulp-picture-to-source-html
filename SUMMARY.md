@@ -1,4 +1,4 @@
 # Table of contents
 
-* [gulp-source-in-html](README.md)
+* [gulp-picture-to-source-html](README.md)
 
