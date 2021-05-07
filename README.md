@@ -1,4 +1,4 @@
-# gulp-source-in-html
+# gulp-picture-to-source-html
 
 Parses HTML files to find img tags and replaces them with picture/source/img tags.
 
