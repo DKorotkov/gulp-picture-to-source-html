@@ -1,10 +1,6 @@
----
-description: >-
-  Parses HTML files to find <img> tags and replaces them with
-  <picture><source><img> </picture> tags
----
-
 # gulp-source-in-html
+
+Parses HTML files to find  tags and replaces them with  tags
 
 ### Usage
 
