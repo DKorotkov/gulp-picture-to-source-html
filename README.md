@@ -1,8 +1,12 @@
 # gulp-source-in-html
 
-Parses HTML files to find img tags and replaces them with picture/source/img tags
+Parses HTML files to find img tags and replaces them with picture/source/img tags.
 
-### Usage
+If you want to use LQIP, then execute it after using this plugin. See Example.
+
+Attention, date-src has priority when choosing the location of the file.
+
+## Usage
 
 ```javascript
 const { task, src, dest } = require('gulp')
@@ -16,7 +20,7 @@ task('default', () => {
 })
 ```
 
-### Example
+## Example
 
 Without LQIP
 
@@ -44,25 +48,25 @@ With LQIP
 </picture>
 ```
 
-### Options
+## Options
 
-#### extensions
+### extensions
 
 * Type: `String`
 * Default: `[".jpg", ".png", ".jpeg", ".JPG", ".PNG", ".JPEG"]`
 
 Extensions of processed files.
 
-#### newExtensions
+### newExtensions
 
 * Type: `String`
 * Default: `[".webp"]`
 
 Output file extensions.
 
-### Acknowledgement
+## Acknowledgement
 
- Thanks [gulp-webp-in-html](https://github.com/ixamp/gulp-webp-in-html) for the inspiration.
+Thanks [gulp-webp-in-html](https://github.com/ixamp/gulp-webp-in-html) for the inspiration.
 
 [LQIP](https://github.com/exuanbo/gulp-lqip-base64)
 
