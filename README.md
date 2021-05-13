@@ -14,7 +14,7 @@ source = require("./index"),
 
 task('default', () => {
   return src('**/*.html', { base: '.' })
-    .pipe(source({ attribute: 'srcset' }))
+    .pipe(source())
     .pipe(lqipBase64({ srcAttr: "data-src", attribute: "src" })) // if you need lqip
     .pipe(dest('.'))
 })
